@@ -39,13 +39,18 @@ h4 {
 }
 /* INSPIRATION SECTION */
 .inspirationsection {
-    margin: 50px;
+    margin: 20px 50px;
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .video {
-    border-radius: 12px;
+    border-style: solid;
     border-color: red;
+}
+
+h2 {
+    color: black;
 }
 
 
