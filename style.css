@@ -1,0 +1,91 @@
+/* * {
+    outline: 2px solid red;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    background-color: yellow;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    /* padding: 20px; */
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-right: 40px;
+    font-weight: bold;
+    padding-right: 0;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    text-decoration: underline;
+}
+li:hover {
+    font-style: oblique;
+}
+
+h4 {
+    font-style: italic;
+}
+
+
+/* CENTER */
+.center-area {
+    display: flex;
+    justify-content: center;
+}
+.bio {
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.Samurai {
+    max-width: 600px;    
+    border-radius: 6px;
+}
+
+/* BUTTON SECTION */
+.buttonsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    color: red;
+    background-color: yellow;
+    border-color: black;
+    padding: 5px 50px;
+    margin: 100px;
+    border-radius: 6px;
+    border-style: solid;
+}
+button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+
+
+
