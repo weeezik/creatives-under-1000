@@ -37,6 +37,17 @@ li:hover {
 h4 {
     font-style: italic;
 }
+/* INSPIRATION SECTION */
+.inspirationsection {
+    margin: 50px;
+    display: flex;
+    gap: 50px;
+}
+.video {
+    border-radius: 12px;
+    border-color: red;
+}
+
 
 /* FOOTER */
 .footer {
